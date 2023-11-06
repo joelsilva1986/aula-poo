@@ -68,7 +68,6 @@ class Produto {
                 this.arrayProdutos[i].preco = produto.preco;
             }
         }
-        document.getElementById('btn1').innerText = 'Salvar'
     }
 
     editarDados(dados) {
@@ -113,6 +112,7 @@ class Produto {
         document.getElementById('preco').value = '';
 
         document.getElementById('btn1').innerText = 'Salvar'
+        this.editId = null;
     }
 
     deletar(id) {
