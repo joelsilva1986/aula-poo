@@ -1,0 +1,17 @@
+Programação orientada a objetos ( POO )
+
+CLASSE
+    A classe é uma forma de definir a representação do mundo real em uma linguagem orientada a objeto. 
+    A classe é formada por dados e comportamentos.
+    Os dados são os nossos atributos e os comportamentos são os nossos métodos que irão manipular os nossos dados.
+
+    Para entender melhor, imagine que estamos desenvolvendo uma aplicação e dentro dessa aplicação estaremos listando todos os nosso produtos para os nossos usuários. E para trabalhar nosso projeto orientado a objetos, precisamos criar as nossas classes que irá representar nosso produto (a classe seria a representação dos nossos produtos), e dentro dessa classe nós teremos os nossos atributos que seriam o nome do produto, o id do produto, o preço do produto, e os nossos métodos são as ações que o usuário pode fazer na nossa aplicação.
+
+ATRIBUTOS
+    Pode-se dizer que os atributos são os itens que tem dentro no nosso produto (id, nome, preço, etc).
+
+METODOS
+    Os métodos são as funções que irão manipular nosso sistema, por exemplo, nós queremos adicionar um novo produto em nosso projeto, iremos criar uma função dentro de nossa classe chamada adicionar(), e quando o usuário chamar essa função, ele estará adicionando um novo produto nessa aplicação. Isso também se aplica se o usuário quiser deletar um produto ou editar um produto.
+
+    Depois que criamos nossa classe, definimos os atributos e nossos métodos, tudo isso vira um objeto. E o que é um objeto?
+    Um objeto será cada item que o usuário adicionar no projeto. Por exemplo, se o usuário clicar em adicionar, ele vai criar um novo objeto com as caracteristicas de classe, atributos e métodos e irá armazenar em nosso sistema.
